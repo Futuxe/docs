@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^rjewi\.vr\.lt$ [NC]
+RewriteRule ^(.*)$ http://rjewi.vr.lt:8080/$1 [L,R=301]
